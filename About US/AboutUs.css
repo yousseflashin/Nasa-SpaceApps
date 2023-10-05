@@ -242,8 +242,8 @@ ul {
 
 .person {
     width: 200px;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: black;
+    border: 1px solid   #24262b;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -260,13 +260,18 @@ ul {
     margin: 0;
 }
 
-.container_header {
+.person p{
+    color: white;
+}
+
+.animation_header {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: black;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* opacity: 20%; */
 }
 
 .animation-container {
@@ -274,6 +279,7 @@ ul {
     overflow: visible;
     width: 100%;
     text-align: center;
+
 }
 
 .animation-text {
@@ -281,9 +287,9 @@ ul {
     font-weight: bold;
     position: absolute;
     left: 50%;
-    color: #24262b;
+    color: rgb(255, 255, 255);
     transform: translate(-50%, -50%);
-    animation: fadeInUp 4s ease infinite alternate;
+    animation: fadeInDown 4s ease infinite alternate;
 }
 
 @keyframes fadeInUp {
@@ -310,3 +316,15 @@ ul {
     max-width: 800px; /* Limit the width of the text */
     margin: 0 auto; /* Center the text horizontally */
 }
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
