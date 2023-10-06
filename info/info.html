@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="info.css">
+	<title>Planets Information</title>
+</head>
+
+<body>
+	<header>
+		<div class="navbar">
+			<div class="logo"><a href="#">Y4M</a></div>
+			<ul class="links">
+				<li><a href="#">page1</a></li>
+				<li><a href="#">page2</a></li>
+				<li><a href="#">page3</a></li>
+				<li><a href="#">page4</a></li>
+				<li><a href="#">page5</a></li>
+				<li><a href="#">page6</a></li>
+			</ul>
+			<a href="{{url_for('Regstration')}}" class="action_btn">login/signup</a>
+			<div class="toggle_btn">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+		</div>
+		<div class="dropdown_menu">
+			<li><a href="#">page1</a></li>
+			<li><a href="#">page2</a></li>
+			<li><a href="#">page3</a></li>
+			<li><a href="#">page4</a></li>
+			<li><a href="#">page5</a></li>
+			<li><a href="#">page6</a></li>
+			<a href="{{url_for('Regstration')}}" class="action_btn">login/signup</a>
+		</div>
+	</header>
+
+	<div class="container">
+		<h1>Planets Information</h1>
+		<div class="select-menu">
+			<div class="select-btn">
+				<span class="sBtn-text">Select a Planet</span>
+				<i class="bx bx-chevron-down"></i>
+			</div>
+			<ul class="options">
+				<li class="option" data-value="mercury">
+					<span class="option-text">Mercury</span>
+				</li>
+				<li class="option" data-value="venus">
+					<span class="option-text">Venus</span>
+				</li>
+				<li class="option" data-value="earth">
+					<span class="option-text">Earth</span>
+				</li>
+				<li class="option" data-value="mars">
+					<span class="option-text">Mars</span>
+				</li>
+				<li class="option" data-value="jupiter">
+					<span class="option-text">Jupiter</span>
+				</li>
+				<li class="option" data-value="saturn">
+					<span class="option-text">Saturn</span>
+				</li>
+				<li class="option" data-value="uranus">
+					<span class="option-text">Uranus</span>
+				</li>
+				<li class="option" data-value="neptune">
+					<span class="option-text">Neptune</span>
+				</li>
+			</ul>
+		</div>
+		<div id="planets-list" class="flex-container">
+
+			<!-- Venus Card -->
+			<div class="planet-card" data-value="Venus">
+				<div class="planet-name">Venus</div>
+				<div class="planet-content">Venus is the hottest planet in our solar system due to its thick atmosphere.
+				</div>
+				<div class="circular_image_venus">
+					<img src="venus-removebg-preview.png" alt="Venus">
+				</div>
+			</div>
+
+			<!-- Mars Card -->
+			<div class="planet-card" data-value="Mars">
+				<div class="planet-name">Mars</div>
+				<div class="planet-content">Mars is often called the 'Red Planet'.</div>
+				<div class="circular_image_mars">
+					<img src="mars-removebg-preview.png" alt="Mars">
+				</div>
+
+			</div>
+
+			<!-- Jupiter Card -->
+			<div class="planet-card" data-value="Jupiter">
+				<div class="planet-name">Jupiter</div>
+				<div class="planet-content">Jupiter is the largest planet in our solar system.</div>
+				<div class="circular_image_jupiter">
+					<img src="Jupiter-removebg-preview.png" alt="Jupiter">
+				</div>
+			</div>
+
+			<!-- Uranus Card -->
+			<div class="planet-card" data-value="Uranus">
+				<div class="planet-name">Uranus</div>
+				<div class="planet-content">Uranus is tilted on its side, rotating almost perpendicular to the plane of
+					its orbit.</div>
+				<div class="circular_image_uranus">
+					<img src="Uranus-transparent.png" alt="Uranus">
+				</div>
+			</div>
+
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="footer-col">
+						<h4>MC1</h4>
+						<ul>
+							<li><a href="#">content1</a></li>
+							<li><a href="#">content2</a></li>
+							<li><a href="#">content3</a></li>
+							<li><a href="#">content4</a></li>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<h4>MC2</h4>
+						<ul>
+							<li><a href="#">content1</a></li>
+							<li><a href="#">content2</a></li>
+							<li><a href="#">content3</a></li>
+							<li><a href="#">content4</a></li>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<h4>MC3</h4>
+						<ul>
+							<li><a href="#">content1</a></li>
+							<li><a href="#">content2</a></li>
+							<li><a href="#">content3</a></li>
+							<li><a href="#">content4</a></li>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<h4>MC1</h4>
+						<div class="social-links">
+							<a href="#"><i class="fa-brands fa-facebook"></i></a>
+							<a href="#"><i class="fa-brands fa-instagram"></i></a>
+							<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="info.js"></script>
+</body>
+
+</html>

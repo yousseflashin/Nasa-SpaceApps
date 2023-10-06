@@ -142,7 +142,7 @@ ul {
 
 .footer {
     background-color: #24262b;
-    padding: 40px 0;
+    padding: 30px 0;
     height: 26%;
     border-radius: 8%;
     z-index: -2;
@@ -243,7 +243,7 @@ ul {
 .person {
     width: 200px;
     background-color: black;
-    border: 1px solid   #24262b;
+    border: 1px solid #24262b;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -254,13 +254,14 @@ ul {
     height: auto;
 }
 
+
 .person h3 {
     text-align: center;
     padding: 10px;
     margin: 0;
 }
 
-.person p{
+.person p {
     color: white;
 }
 
@@ -303,19 +304,26 @@ ul {
         transform: translate(-50%, -50%);
     }
 }
+
 .vision-banner {
-    background-color: #24262b; /* Background color for the banner */
-    color: #fff; /* Text color */
+    background-color: #24262b;
+    /* Background color for the banner */
+    color: #fff;
+    /* Text color */
     text-align: center;
-    padding: 50px 0; /* Adjust padding to control banner height */
+    padding: 50px 0;
+    /* Adjust padding to control banner height */
 }
 
 .vision-text {
     font-size: 24px;
     font-weight: bold;
-    max-width: 800px; /* Limit the width of the text */
-    margin: 0 auto; /* Center the text horizontally */
+    max-width: 800px;
+    /* Limit the width of the text */
+    margin: 0 auto;
+    /* Center the text horizontally */
 }
+
 @keyframes fadeInDown {
     0% {
         opacity: 0;
@@ -328,3 +336,35 @@ ul {
     }
 }
 
+.banner {
+    background-color: #24262b;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 60px;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    border-radius: 100px;
+}
+
+.aboutUs{
+    color:white;
+    font-size: 18px;
+    line-height: 1.6;
+    border: 5px solid rgb(36, 38, 43);
+    padding: 50px 50px;
+    margin: 25px;
+    
+}
+
+.slogan {
+    font-size: 42px;
+    font-weight: bold;
+    color: white; /* Set a gold text color */
+    text-transform: uppercase; /* Make the text uppercase */
+    text-align: center;
+    margin: 50px;
+    margin-top: 80px;
+}
